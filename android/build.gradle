@@ -20,11 +20,7 @@ rootProject.allprojects {
         mavenCentral()
     }
 }
-// plugins {
-//     id 'com.android.library'
-//     id 'kotlin-android'
-//     // Add other plugins as needed
-// }
+
 
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
@@ -35,6 +31,16 @@ android {
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
+    }
+    
+    // Set Java compatibility versions
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'  // Ensure Kotlin compiles to Java 17
     }
     defaultConfig {
         minSdkVersion 16

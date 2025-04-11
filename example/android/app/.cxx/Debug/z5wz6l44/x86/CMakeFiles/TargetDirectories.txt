@@ -1,0 +1,2 @@
+/Users/prom1/AndroidStudioProjects/package/image_gallery_saver/example/android/app/.cxx/Debug/z5wz6l44/x86/CMakeFiles/edit_cache.dir
+/Users/prom1/AndroidStudioProjects/package/image_gallery_saver/example/android/app/.cxx/Debug/z5wz6l44/x86/CMakeFiles/rebuild_cache.dir

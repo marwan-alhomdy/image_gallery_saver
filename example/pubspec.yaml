@@ -10,13 +10,13 @@ description: Demonstrates how to use the image_gallery_saver plugin.
 version: 2.0.3+3
 
 environment:
-  sdk: '>=2.19.6 <4.0.0'
+  sdk: ">=2.19.6 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  permission_handler: ^10.3.0
+  permission_handler:
   fluttertoast: ^8.2.2
   path_provider: ^2.0.15
   dio: ^5.2.1+1
@@ -28,14 +28,13 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.1
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

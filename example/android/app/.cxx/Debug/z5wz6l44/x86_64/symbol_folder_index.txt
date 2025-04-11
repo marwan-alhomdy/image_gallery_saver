@@ -1,0 +1,1 @@
+/Users/prom1/AndroidStudioProjects/package/image_gallery_saver/example/build/app/intermediates/cxx/Debug/z5wz6l44/obj/x86_64
